@@ -14,7 +14,7 @@
         {
             "name": "Valentin Stepanov",
             "email": "valekstepanov@gmail.com",
-            'homepage": "https://v-stepanov.ru"
+            "homepage": "https://v-stepanov.ru"
         }
     ],
     "minimum-stability": "dev",
