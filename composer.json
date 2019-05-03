@@ -1,8 +1,8 @@
 {
-    "name": "bupy7/yii2-flexslider",
+    "name": "valekstepanov/yii2-flexslider",
     "description": "This is widget wrapper of Flexslider https://github.com/woothemes/FlexSlider for Yii2.",
     "keywords": ["yii2", "extension", "widget", "flexslider"],
-    "homepage": "https://github.com/bupy7/yii2-flexslider",
+    "homepage": "https://github.com/valekstepanov/yii2-flexslider",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
@@ -10,15 +10,20 @@
             "name": "Vasilij Belosludcev",
             "email": "bupy765@gmail.com",
             "homepage": "http://mihaly4.ru"
+        },
+        {
+            "name": "Valentin Stepanov",
+            "email": "valekstepanov@gmail.com",
+            'homepage": "https://v-stepanov.ru"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": {
-            "bupy7\\flexslider\\": ""
+            "valekstepanov\\flexslider\\": ""
         }
     }
 }
