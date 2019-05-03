@@ -3,17 +3,19 @@ yii2-flexslider
 
 This is widget wrapper of Flexslider https://github.com/woothemes/FlexSlider for Yii2. 
 
+Forked from https://github.com/bupy7/yii2-flexslider
+
 ##Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
 Either run
 ```
-$ php composer.phar require bupy7/yii2-flexslider "dev-master"
+$ php composer.phar require valekstepanov/yii2-flexslider "dev-master"
 ```
 
 or add
 ```
-"bupy7/yii2-flexslider": "dev-master"
+"valekstepanov/yii2-flexslider": "dev-master"
 ```
 
 to the **require** section of your **composer.json** file.
@@ -25,7 +27,7 @@ Added following code to your view:
 ```php
 ...
 
-use bupy7\flexslider\FlexSlider;
+use valekstepanov\flexslider\FlexSlider;
 
 echo FlexSlider::widget([
     'items' => [
