@@ -1,6 +1,6 @@
 <?php
 
-namespace bupy7\flexslider;
+namespace valekstepanov\flexslider;
 
 use yii\web\AssetBundle;
 
@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
 class FlexSliderAsset extends AssetBundle
 {
 
-    public $sourcePath = '@bupy7/flexslider/assets';
+    public $sourcePath = '@valekstepanov/flexslider/assets';
 
     public $css = [
         'flexslider.css',
