@@ -93,9 +93,14 @@ class FlexSlider extends Widget
         $options = Json::encode(array_merge([
             'selector' => '.slides > li',
         ], $this->pluginOptions));
+     
+        $jsoptions = '';
+        foreach ($options as $k => $v) {
+            $jsoptions .= ($jsoptions ? "," : "") . $k . ': ' . (is_numeric($v) ? $v : (is_bool($v) ? var_export($v, true) : (strpos($v, '$') === 0 ? $v : '"' . $v . '"')));
+        }
         
         $js = <<<JS
-$('#{$this->id}').flexslider($options);             
+$('#{$this->id}').flexslider({ $jsoptions });             
 JS;
         $this->view->registerJs($js, View::POS_READY);
     }
