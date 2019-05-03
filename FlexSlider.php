@@ -1,5 +1,5 @@
 <?php
-namespace bupy7\flexslider;
+namespace valekstepanov\flexslider;
 
 use yii\base\Widget;
 use yii\helpers\Html;
@@ -12,8 +12,10 @@ use yii\web\JsExpression;
  *
  * GitHub repository JS library: https://github.com/woothemes/FlexSlider
  * GitHub repository this widget: https://github.com/bupy7/yii2-flexslider
+ * GitHub fork repository: https://github.com/valekstepanov/yii2-flexslider
  * 
  * @author Vasilij "BuPy7" Belosludcev http://mihaly4.ru
+ * @author Valentin Stepanov https://v-stepanov.ru
  * @version 1.0
  */
 class FlexSlider extends Widget
