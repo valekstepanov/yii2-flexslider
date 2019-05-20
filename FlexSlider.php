@@ -71,6 +71,10 @@ class FlexSlider extends Widget
         parent::init();
         
         FlexSliderAsset::register($this->view);
+     
+        if (isset($this->options['id'])) {
+            $this->id = $this->options['id'];
+        }
 
         $this->options = array_merge(['id' => $this->id], $this->options);
 
