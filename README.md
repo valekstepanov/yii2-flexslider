@@ -10,12 +10,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run
 ```
-$ php composer.phar require valekstepanov/yii2-flexslider "^1.0.2"
+$ php composer.phar require valekstepanov/yii2-flexslider "~1.0.3"
 ```
 
 or add
 ```
-"valekstepanov/yii2-flexslider": "^1.0.2"
+"valekstepanov/yii2-flexslider": "~1.0.3"
 ```
 
 to the **require** section of your **composer.json** file.
